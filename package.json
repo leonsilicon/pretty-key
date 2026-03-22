@@ -1,5 +1,6 @@
 {
-  "name": "keycode-display",
+  "name": "pretty-key",
+  "description": "Get a pretty string representation of a key",
   "type": "module",
   "types": "./dist/index.d.ts",
   "module": "./dist/index.js",
