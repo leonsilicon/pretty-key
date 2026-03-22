@@ -23,12 +23,12 @@ getPrettyKey("NumpadDivide"); // "÷"
 
 // Build shortcut labels by formatting each key and joining them
 ["cmd", "shift", "p"].map(getPrettyKey).join("");
-// "⌘⇧p"
+// "⌘⇧P"
 
 // Switch platform-specific modifier output when needed
 getPrettyKey("cmd", "mac"); // "⌘"
 getPrettyKey("cmd", "windows"); // "❖"
-getPrettyKey("alt", "windows"); // "alt"
+getPrettyKey("alt", "windows"); // "Alt"
 
 // Unknown keys fall back to the original input
 getPrettyKey("customShortcutKey"); // "customShortcutKey"

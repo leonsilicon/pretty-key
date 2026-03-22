@@ -8,30 +8,30 @@ export default function getPrettyKey(input: KeyMappingCode | string, os: 'macos'
   switch (key) {
     case "esc":
     case "escape": return "⎋";
-    case "f1": return "f1";
-    case "f2": return "f2";
-    case "f3": return "f3";
-    case "f4": return "f4";
-    case "f5": return "f5";
-    case "f6": return "f6";
-    case "f7": return "f7";
-    case "f8": return "f8";
-    case "f9": return "f9";
-    case "f10": return "f10";
-    case "f11": return "f11";
-    case "f12": return "f12";
-    case "f13": return "f13";
-    case "f14": return "f14";
-    case "f15": return "f15";
-    case "f16": return "f16";
-    case "f17": return "f17";
-    case "f18": return "f18";
-    case "f19": return "f19";
-    case "f20": return "f20";
-    case "f21": return "f21";
-    case "f22": return "f22";
-    case "f23": return "f23";
-    case "f24": return "f24";
+    case "f1": return "F1";
+    case "f2": return "F2";
+    case "f3": return "F3";
+    case "f4": return "F4";
+    case "f5": return "F5";
+    case "f6": return "F6";
+    case "f7": return "F7";
+    case "f8": return "F8";
+    case "f9": return "F9";
+    case "f10": return "F10";
+    case "f11": return "F11";
+    case "f12": return "F12";
+    case "f13": return "F13";
+    case "f14": return "F14";
+    case "f15": return "F15";
+    case "f16": return "F16";
+    case "f17": return "F17";
+    case "f18": return "F18";
+    case "f19": return "F19";
+    case "f20": return "F20";
+    case "f21": return "F21";
+    case "f22": return "F22";
+    case "f23": return "F23";
+    case "f24": return "F24";
     case "pwr":
     case "power": return "⏻";
 
@@ -67,25 +67,25 @@ export default function getPrettyKey(input: KeyMappingCode | string, os: 'macos'
 
     case "tab": return "⇥";
     case "q":
-    case "keyq": return "q";
+    case "keyq": return "Q";
     case "w":
-    case "keyw": return "w";
+    case "keyw": return "W";
     case "e":
-    case "keye": return "e";
+    case "keye": return "E";
     case "r":
-    case "keyr": return "r";
+    case "keyr": return "R";
     case "t":
-    case "keyt": return "t";
+    case "keyt": return "T";
     case "y":
-    case "keyy": return "y";
+    case "keyy": return "Y";
     case "u":
-    case "keyu": return "u";
+    case "keyu": return "U";
     case "i":
-    case "keyi": return "i";
+    case "keyi": return "I";
     case "o":
-    case "keyo": return "o";
+    case "keyo": return "O";
     case "p":
-    case "keyp": return "p";
+    case "keyp": return "P";
     case "[":
     case "bracketleft": return "[";
     case "]":
@@ -98,23 +98,23 @@ export default function getPrettyKey(input: KeyMappingCode | string, os: 'macos'
     case "caps":
     case "capslock": return "⇪";
     case "a":
-    case "keya": return "a";
+    case "keya": return "A";
     case "s":
-    case "keys": return "s";
+    case "keys": return "S";
     case "d":
-    case "keyd": return "d";
+    case "keyd": return "D";
     case "f":
-    case "keyf": return "f";
+    case "keyf": return "F";
     case "g":
-    case "keyg": return "g";
+    case "keyg": return "G";
     case "h":
-    case "keyh": return "h";
+    case "keyh": return "H";
     case "j":
-    case "keyj": return "j";
+    case "keyj": return "J";
     case "k":
-    case "keyk": return "k";
+    case "keyk": return "K";
     case "l":
-    case "keyl": return "l";
+    case "keyl": return "L";
     case ";":
     case "semicolon": return ";";
     case "'":
@@ -125,19 +125,19 @@ export default function getPrettyKey(input: KeyMappingCode | string, os: 'macos'
     case "lshift":
     case "shiftleft": return "⇧";
     case "z":
-    case "keyz": return "z";
+    case "keyz": return "Z";
     case "x":
-    case "keyx": return "x";
+    case "keyx": return "X";
     case "c":
-    case "keyc": return "c";
+    case "keyc": return "C";
     case "v":
-    case "keyv": return "v";
+    case "keyv": return "V";
     case "b":
-    case "keyb": return "b";
+    case "keyb": return "B";
     case "n":
-    case "keyn": return "n";
+    case "keyn": return "N";
     case "m":
-    case "keym": return "m";
+    case "keym": return "M";
     case ",":
     case "comma": return ",";
     case ".":
@@ -148,14 +148,14 @@ export default function getPrettyKey(input: KeyMappingCode | string, os: 'macos'
     case "shiftright":
     case "shift": return "⇧";
 
-    case "fn": return os === 'macos' ? "🌐" : "fn";
+    case "fn": return os === 'macos' ? "🌐" : "Fn";
     case "lctrl":
     case "ctrlleft":
-    case "controlleft": return os === 'macos' ? "⌃" : "ctrl";
+    case "controlleft": return os === 'macos' ? "⌃" : "Ctrl";
     case "lalt":
     case "opt":
     case "option":
-    case "altleft": return os === 'macos' ? "⌥" : "alt";
+    case "altleft": return os === 'macos' ? "⌥" : "Alt";
     case "lcmd":
     case "cmd":
     case "command":
@@ -168,10 +168,10 @@ export default function getPrettyKey(input: KeyMappingCode | string, os: 'macos'
     case "metaright": return os === 'macos' ? "⌘" : "❖";
     case "rctrl":
     case "ctrlright":
-    case "controlright": return os === 'macos' ? "⌃" : "ctrl";
+    case "controlright": return os === 'macos' ? "⌃" : "Ctrl";
     case "ropt":
     case "altgr":
-    case "altright": return os === 'macos' ? "⌥" : "altgr";
+    case "altright": return os === 'macos' ? "⌥" : "AltGr";
     case "left":
     case "arrowleft": return "←";
     case "up":
@@ -258,7 +258,7 @@ export default function getPrettyKey(input: KeyMappingCode | string, os: 'macos'
 
     case "hyper": return "✦";
     case "super": return "❖";
-    case "fnlock": return "fn⇪";
+    case "fnlock": return "Fn⇪";
     case "suspend": return "⏸";
     case "resume": return "▶";
     case "turbo": return "⚡";
