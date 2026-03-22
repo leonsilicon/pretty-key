@@ -1,0 +1,29 @@
+{
+  "name": "keycode-display",
+  "type": "module",
+  "types": "./dist/index.d.ts",
+  "module": "./dist/index.js",
+  "keywords": [
+    "key",
+    "keyboard",
+    "format",
+    "pretty",
+    "display",
+    "symbol"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "devDependencies": {
+    "keycode-ts2": "^0.1.1"
+  }
+}
