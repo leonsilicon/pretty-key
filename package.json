@@ -21,10 +21,10 @@
   "scripts": {
     "build": "tsc"
   },
+  "dependencies": {
+    "keycode-ts2": "^0.1.1"
+  },
   "peerDependencies": {
     "typescript": "^5"
-  },
-  "devDependencies": {
-    "keycode-ts2": "^0.1.1"
   }
 }

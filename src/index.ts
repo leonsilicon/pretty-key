@@ -1,7 +1,7 @@
 import type { KeyMappingCode } from 'keycode-ts2';
 
 // prettier-ignore
-export default function getKey(input: KeyMappingCode | string, os = 'mac') {
+export default function getPrettyKey(input: KeyMappingCode | string, os: 'macos' | 'windows' | 'linux' = 'macos') {
   const key = input.toLowerCase();
 
   // Ordered by keyboard rows
@@ -148,30 +148,30 @@ export default function getKey(input: KeyMappingCode | string, os = 'mac') {
     case "shiftright":
     case "shift": return "⇧";
 
-    case "fn": return os === 'mac' ? "🌐" : "fn";
+    case "fn": return os === 'macos' ? "🌐" : "fn";
     case "lctrl":
     case "ctrlleft":
-    case "controlleft": return os === 'mac' ? "⌃" : "ctrl";
+    case "controlleft": return os === 'macos' ? "⌃" : "ctrl";
     case "lalt":
     case "opt":
     case "option":
-    case "altleft": return os === 'mac' ? "⌥" : "alt";
+    case "altleft": return os === 'macos' ? "⌥" : "alt";
     case "lcmd":
     case "cmd":
     case "command":
     case "win":
-    case "metaleft": return os === 'mac' ? "⌘" : "❖";
+    case "metaleft": return os === 'macos' ? "⌘" : "❖";
     case "spacebar":
     case "space": return "␣";
     case "rcmd":
     case "rwin":
-    case "metaright": return os === 'mac' ? "⌘" : "❖";
+    case "metaright": return os === 'macos' ? "⌘" : "❖";
     case "rctrl":
     case "ctrlright":
-    case "controlright": return os === 'mac' ? "⌃" : "ctrl";
+    case "controlright": return os === 'macos' ? "⌃" : "ctrl";
     case "ropt":
     case "altgr":
-    case "altright": return os === 'mac' ? "⌥" : "altgr";
+    case "altright": return os === 'macos' ? "⌥" : "altgr";
     case "left":
     case "arrowleft": return "←";
     case "up":
